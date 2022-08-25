@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: gray;
+}
+
+nav{
+    width:100%;
+    background: black;
+    overflow: auto;
+}
+
+ul{
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+}
+li{
+    float:right;
+}
+
+.logo img{
+    width: 60px;
+    height: 56px;
+    position: absolute;
+    margin-top: 15;
+    margin-left: 60px;
+}
+    
+
+nav a{
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    font-family: Arial;
+    color:lightgrey;
+    text-align: center;
+}
+
+nav a:hover{
+    background: red;    
+    transition:0.5s;
+    text-transform: uppercase;
+}
